@@ -1,0 +1,245 @@
+*{
+	padding: 0;
+	margin: 0;
+	/*font-family: 'PT Sans', sans-serif;*/
+}
+ ul ,ol{
+	list-style: none;
+}
+
+
+a{
+	text-decoration: none;
+}
+
+body{
+
+	/*font-family: 'Open Sans', sans-serif;    ,,,,ata google font theke copy koresi,,,,
+   font-family: 'PT Sans', sans-serif;*/
+}
+
+
+
+/*header part css strat*/
+
+.header{
+    background: #fcdb00;
+    height: 650px;
+    padding-top: 25px;
+
+}
+
+.menu_link{
+	
+	padding: 20px 30px;
+	float: left;
+	color:#555555;
+}
+.menu{
+	padding-left: 300px;
+
+}
+.menu_link{
+	 font-size: 18px;
+    font-weight: 700;
+    font-family: 'PT Sans', sans-serif;
+}
+.menu_link:hover{
+  color: #010101;
+}
+.figer_logo{
+    padding: 20px;
+}
+.figer_logo img{
+	padding-left: 200px;
+}
+.content{
+    padding-right: 100px;
+    margin: 20px 50px;
+    padding: 0px 60px;
+    padding-left: 50px;
+    padding-top:30px;
+	
+
+}
+.content h3{
+  font-family: 'PT Sans', sans-seri;
+ font-weight:700;
+ font-size: 32px;
+ padding-bottom: 20px;
+
+ 
+
+}
+.logo{
+	padding: 10px 90px;
+}
+
+
+
+
+.phn_image img{
+
+	padding: 20px 30px;
+	padding-left: 230px;
+	width: 65%;
+	
+
+}
+
+
+/*header part css strat*/
+
+
+
+/*common heading part css start*/
+
+.common_feature{
+	text-align: center;
+	/*margin: 80px 0 90px 0;*/
+	padding: 90px 0px;
+  
+
+	
+}
+.common_feature h4{
+  font-family: 'PT Sans', sans-seri;
+ font-weight:700;
+ font-size: 32px;
+ color: #010101;
+
+}
+.common_feature p{
+  font-family: 'PT Sans', sans-seri;
+ font-weight:400;
+ font-size: 20px;
+ color: #555555;
+  padding: 0px 290px;   /*top-botton theke 0px,,,,,,left-right theke 290px*/
+
+}
+/*common heading part css end*/
+
+
+
+/*features css start*/
+
+#feature_main{
+padding: 0px 300px;
+
+}
+.content_logo_main{
+  display: flex;
+}
+.phn_img img{
+  padding-right: 20px;
+}
+/*features css end*/
+
+
+
+/*footer part css start*/
+
+#footer{
+	text-align: center;
+	/*margin: 80px 0 90px 0;*/
+	padding: 80px 0px;
+  
+
+	
+}
+.common_footer h4{
+  font-family: 'PT Sans', sans-seri;
+ font-weight:700;
+ font-size: 32px;
+ color: #fcdb00;
+
+}
+.common_footer p{
+  font-family: 'PT Sans', sans-seri;
+ font-weight:400;
+ font-size: 20px;
+ color: #555555;
+  padding: 0px 290px; 
+
+}
+.footer_main{
+  background-color: #010101;
+   height: 750px;
+   margin-top: 100px;
+}
+.form_email{
+	height: 30px;
+
+  padding: 10px 150px 30px;
+  margin-left: 55%;
+  border-radius: 10px;
+}
+.submit_btn{
+	height: 36px;
+	padding: 10px 35px;
+	margin-right:30%;
+	line-height: 18px;
+	border-radius: 10px; /* kona gola aktu borter hobe*/
+
+}
+
+.fas-icon a{
+	 margin: 0 10px;
+
+    font-size: 20px;
+    display: block;
+    line-height: 15px;
+    height: 30px;
+    width: 30px;
+    background: #fcdb00;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    color: #000;
+}
+.fas-icon{
+	 display: flex;
+    justify-content: center;
+    align-items: center;
+   padding: 60px 40px;
+   padding-left: 15px;
+}
+.f_grp_content{
+ font-family: 'PT Sans', sans-seri;
+ font-weight:400;
+ font-size: 14px;
+ color: white;
+ text-align: center;
+ padding-top: 80px;
+
+}
+
+.f_grp_content ul li a{   /* anghor(a)tag e pading dibo na margin dibo pading nile likhar bahire o click able hoi*/
+	color: white;
+	margin: 50px 100px;
+
+}
+.f_grp{
+	text-align: center;
+}
+.f_grp h6{
+
+ font-family: 'PT Sans', sans-seri;
+ font-weight:400;
+ font-size: 14px;
+ padding: 0px 50px;
+
+
+
+}
+.f_grp p{
+ 
+ font-family: 'PT Sans', sans-seri;
+ font-weight:400;
+ font-size: 14px;
+ padding: 0px 50px;
+}
+
+
+/*footer part css end*/
+
